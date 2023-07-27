@@ -11,29 +11,48 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    
-    
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/acordeon.css" />
   </head>
   <body>
     <div class="main">
-    <header class="header">
-      <img class="photo" src="assets/img/will.jpeg" alt="minhafoto" />
+      <header class="header">
+        <img class="photo" src="assets/img/will.jpeg" alt="minhafoto" />
 
-      <h1 class="title">Olá,<br> eu sou William Martins</h1>
+        <h1 class="title">
+          Olá,<br />
+          eu sou William Martins
+        </h1>
 
-      <div class="information">
-        <p class="job">Desenvolvedor Front End</p>
-        <p class="location">Floranópolis</p>
-        <p class="phone">(48)9 8811-8535</p>
-        <p class="email">williamgmca@gmail.com</p>
-      </div>
+        <div class="information">
+          <p class="job">Desenvolvedor Front End</p>
+          <p class="location">Floranópolis</p>
+          <p class="phone">(48)9 8811-8535</p>
+          <p class="email">williamgmca@gmail.com</p>
+        </div>
+      </header>
+
+      <section class="acordeon open">
+        <button class="trigger" type="button">Idiomas</button>
+
+        <div class="content">
+          <ul>
+            <li>Português</li>
+            <li>Ingles</li>
+            <li>Italiano</li>
+            <li>Espanhol</li>
+          </ul>
+        </div>
+      </section>
     </div>
-    </header>
+    <script src="/assets/js/acordeon.js"></script>
   </body>
 </html>
