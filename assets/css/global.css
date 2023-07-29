@@ -4,6 +4,19 @@
     color: #ffff;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+}
+
+
+
+
 @font-face {
     font-family: 'Neue Machina';
     src: url('/assets/fonts/neuemachina-regular.otf');
