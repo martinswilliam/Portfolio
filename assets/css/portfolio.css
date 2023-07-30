@@ -9,6 +9,7 @@
 
 }
 
+
 .portfolio li {
     display: flex;
     flex-direction: column;
@@ -23,6 +24,7 @@
     font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: .5rem;
+    margin: 0;
 }
 
 .portfolio li .title.github::before {
