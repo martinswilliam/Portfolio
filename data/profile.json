@@ -40,18 +40,23 @@
     "languages": [
         "Português BR",
         "Inglês (intermediário)",
-        "Espanhol (intermediário)",
-        "Italiano (iniciante)"
+        "Espanhol (intermediário)"
     ],
     "portfolio": [
         {
-            "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-            "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+            "name": "Portfolio",
+            "url": "https://github.com/martinswilliam/Portfolio",
             "github": true
         },
         {
-            "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-            "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+            "name": "Github Finder",
+            "url": "https://github.com/martinswilliam/Github-Finder",
+            "github": true
+        },
+
+        {
+            "name": "Projeto pessoal de resumo de livros",
+            "url": "https://github.com/martinswilliam/Resumindo-livros",
             "github": true
         }
     ],
