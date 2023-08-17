@@ -50,16 +50,29 @@ languages.innerHTML = profileData.languages.map(languages => `<li>${languages}</
 }
 
 function uptdatePortfolio(profileData) {
-const portifolio = document.getElementById('profile.portifolio')
-portifolio.innerHTML = profileData.portifolio.map(project => {
+const portfolio = document.getElementById('profile.portfolio')
+portfolio.innerHTML = profileData.portfolio.map(project => {
     return `
-        <lil>
+        <li>
             <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
             <a href="${project.url}" target="_blank">${project.url}</a>
-        </lil>
+        </li>
     `
     }).join('')
 
+}
+
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('profile.professionalExperience')
+    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+        return `
+        <li>
+            <h3 class=title">${experience.name}</h3>
+            <p class="period">${experience.period}</p>
+            <p>${experience.description}</p>
+        </li>
+        `
+    }).join('')
 }
 
 
@@ -71,5 +84,6 @@ portifolio.innerHTML = profileData.portifolio.map(project => {
     updateHardskills(profileData)
     updateLanguages(profileData)
     uptdatePortfolio(profileData)
+    updateProfessionalExperience(profileData)
 
 })()
