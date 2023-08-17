@@ -52,5 +52,6 @@ function updateHardskills(profileData) {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
+    updateHardskills(profileData)
 
 })()
