@@ -30,13 +30,13 @@ a:hover {
 }
 
 body {
-    background-color: #000;
+    background-color: #070612;
     color: #ffff;
 }
 
 .main::before, .main::after {
     content: '';
-    background-image: url('../img/background.svg');
+    background-image: imagem;
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
