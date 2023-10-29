@@ -58,6 +58,28 @@
             "name": "Projeto pessoal de resumo de livros",
             "url": "https://github.com/martinswilliam/Resumindo-livros",
             "github": true
+        },
+        {
+            "name": "Pokemon Finder",
+            "url": "https://github.com/martinswilliam/Pokemon-finder",
+            "github": true
+        },
+        {
+            "name": "Projeto utilizando Angular",
+            "url": "https://github.com/martinswilliam/angular-blog",
+            "github": true
+        },
+
+        {
+            "name": "BuzzFeed usando Angular",
+            "url": "hhttps://github.com/martinswilliam/BuzzFeed",
+            "github": true
+        },
+
+        {
+            "name": "Pokedex",
+            "url": "https://github.com/martinswilliam/Pokedex",
+            "github": true
         }
     ],
     "professionalExperience": [

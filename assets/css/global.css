@@ -30,6 +30,9 @@ a:hover {
 }
 
 body {
+    background-image: url(/assets/img/degrade2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #070612;
     color: #ffff;
 }
